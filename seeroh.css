@@ -331,7 +331,7 @@ a {
 
 .welcome-text-ar {
   text-align: center;
-  max-width: 450px;
+  max-width: 500px;
   margin: 0 auto 20px auto;
   font-size: 1.3rem;
   line-height: 1.5;
@@ -343,7 +343,10 @@ a {
     padding: 12px;
     border-radius: 8px;
   }
-
+  #score-container {
+    max-width: 85%;
+    padding: 10px 20px;
+  }
   #score-container h2 {
     font-size: 1.6rem;
   }

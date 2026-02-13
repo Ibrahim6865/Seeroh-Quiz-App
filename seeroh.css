@@ -71,7 +71,7 @@ body {
   border: 1.8px solid #DCE1E7;
   color: #2C3E50;
   cursor: pointer;
-  font-family: 'Cairo', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 500;
 }
@@ -164,6 +164,7 @@ body {
   padding: 5px;
   max-width: 422px;
   border-radius: 4px;
+  margin-bottom: 5px;
 }
 #score-container h2 {
   font-size: 2.3rem;
@@ -188,7 +189,7 @@ body {
 }
 #congMsg {
   font-weight: bold;
-  padding-top: 5px;
+  padding-bottom: 5px;
 }
 #greet {
   color: var(--biology-green);
@@ -217,11 +218,12 @@ h1, h2, h3, h4, p, button {
   border-radius: 8px;
   margin-top: 200px;
 }
-a {
-  color: var(--white);
+.btns {
+  color: var(--science-blue);
   text-decoration: none;
   font-weight: 500;
   border: none;
+  padding-bottom: 10px;
 }
 
 
@@ -310,13 +312,13 @@ a {
   }
 
   .quiz-header h1 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     text-align: center;
   }
 
   #question {
-    font-size: 1.1rem;
-    line-height: 1.4;
+    font-size: 1.2rem;
+    line-height: 1.5;
     text-align: center;
   }
 

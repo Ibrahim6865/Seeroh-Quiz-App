@@ -19,206 +19,350 @@ nextButton.disabled = true;
 // English Seerah Questions Example
 const questions = [
   {
-    question: "Where was the Prophet ﷺ born?",
-    choices: ["Medina", "Mecca", "Taif", "Yemen"],
-    answer: "Mecca"
+    question: "Who accompanied the Prophet ﷺ inside the cave of Thawr during the Hijrah?",
+    choices: [
+      "Umar ibn al-Khattab (ra)",
+      "Ali ibn Abi Talib (ra)",
+      "Abu Bakr al-Siddiq (ra)",
+      "Zubayr ibn al-Awwam (ra)"
+    ],
+    answer: "Abu Bakr al-Siddiq (ra)"
   },
   {
-    question: "How old was Prophet Muhammad ﷺ when he received the first revelation?",
-    choices: ["25", "30", "40", "50"],
-    answer: "40"
+    question: "Which companion slept in the Prophet’s ﷺ bed on the night of Hijrah?",
+    choices: [
+      "Uthman ibn Affan (ra)",
+      "Ali ibn Abi Talib (ra)",
+      "Talhah ibn Ubaydullah (ra)",
+      "Sa’d ibn Abi Waqqas (ra)"
+    ],
+    answer: "Ali ibn Abi Talib (ra)"
   },
   {
-    question: "What is the name of the cave where Prophet Muhammad ﷺ received the first revelation?",
-    choices: ["Cave of Hira", "Cave of Thawr", "Cave of Safa", "Cave of Quraish"],
-    answer: "Cave of Hira"
+    question: "Who was known as 'Dhul-Nurayn' (The Possessor of Two Lights)?",
+    choices: [
+      "Ali ibn Abi Talib (ra)",
+      "Uthman ibn Affan (ra)",
+      "Abu Bakr (ra)",
+      "Abdur Rahman ibn Awf (ra)"
+    ],
+    answer: "Uthman ibn Affan (ra)"
   },
   {
-    question: "Which city did the Prophet ﷺ migrate to during the Hijrah?",
-    choices: ["Mecca", "Jerusalem", "Medina", "Taif"],
-    answer: "Medina"
+    question: "Which companion compiled the Qur'an into a single book form during Abu Bakr’s caliphate?",
+    choices: [
+      "Zayd ibn Thabit (ra)",
+      "Ibn Abbas (ra)",
+      "Ubayy ibn Ka'b (ra)",
+      "Muadh ibn Jabal (ra)"
+    ],
+    answer: "Zayd ibn Thabit (ra)"
   },
   {
-    question: "What is the name of the battle where the Muslims won against the Quraysh despite being outnumbered?",
-    choices: ["Battle of Uhud", "Battle of Badr", "Battle of Khandaq", "Battle of Hunayn"],
+    question: "Which battle was the first major military victory for the Muslims?",
+    choices: [
+      "Battle of Uhud",
+      "Battle of Khandaq",
+      "Battle of Badr",
+      "Battle of Hunayn"
+    ],
     answer: "Battle of Badr"
   },
   {
-    question: "Who was the Prophet Muhammad’s ﷺ uncle who protected him during the early days of Islam?",
-    choices: ["Abu Talib", "Hamza", "Abu Bakr", "Umar"],
-    answer: "Abu Talib"
-  },
-  {
-    question: "What was the name of the treaty signed between the Muslims and the Quraysh?",
-    choices: ["Treaty of Hudaybiyyah", "Treaty of Mecca", "Treaty of Medina", "Treaty of Taif"],
-    answer: "Treaty of Hudaybiyyah"
-  },
-  {
-    question: "How many children did Prophet Muhammad ﷺ have?",
-    choices: ["2", "4", "6", "7"],
-    answer: "7"
-  },
-  {
-    question: "What is the name of the Prophet’s ﷺ daughter who is very famous and loved?",
-    choices: ["Aisha", "Fatimah", "Zainab", "Umm Kulthum"],
-    answer: "Fatimah"
-  },
-
-  {
-    question: "In which year was the Prophet ﷺ born?",
-    choices: ["Year of the Elephant", "Year of Hijrah", "Year of Badr", "Year of the Conquest"],
-    answer: "Year of the Elephant"
-  },
-  {
-    question: "Who was the mother of the Prophet ﷺ?",
-    choices: ["Khadijah bint Khuwaylid", "Aminah bint Wahb", "Fatimah bint Asad", "Halima al-Sa'diyah"],
-    answer: "Aminah bint Wahb"
-  },
-  {
-    question: "Who was the father of the Prophet ﷺ?",
-    choices: ["Abu Talib", "Abdul Muttalib", "Abdullah ibn Abdul Muttalib", "Al-Abbas"],
-    answer: "Abdullah ibn Abdul Muttalib"
-  },
-  {
-    question: "Who nursed the Prophet ﷺ as a baby?",
-    choices: ["Safiyyah", "Halima al-Sa'diyah", "Khadijah", "Aisha"],
-    answer: "Halima al-Sa'diyah"
-  },
-  {
-    question: "What is the name of the first wife of the Prophet ﷺ?",
-    choices: ["Khadijah bint Khuwaylid", "Aisha bint Abu Bakr", "Fatimah bint Muhammad", "Zaynab bint Khuzaymah"],
-    answer: "Khadijah bint Khuwaylid"
+    question: "Which companion was titled 'Saifullah' (The Sword of Allah)?",
+    choices: [
+      "Ali ibn Abi Talib (ra)",
+      "Khalid ibn al-Walid (ra)",
+      "Hamzah ibn Abdul Muttalib (ra)",
+      "Zubayr ibn al-Awwam (ra)"
+    ],
+    answer: "Khalid ibn al-Walid (ra)"
   },
   {
     question: "Who was the first martyr in Islam?",
-    choices: ["Hamzah ibn Abdul Muttalib", "Umar ibn Al-Khattab", "Ali ibn Abi Talib", "Zayd ibn Harithah"],
-    answer: "Hamzah ibn Abdul Muttalib"
+    choices: [
+      "Bilal ibn Rabah (ra)",
+      "Sumayyah bint Khayyat (ra)",
+      "Yasir ibn Amir (ra)",
+      "Hamza ibn Abd al-Muttalib (ra)"
+    ],
+    answer: "Sumayyah bint Khayyat (ra)"
   },
   {
-    question: "What is the name of the first mosque built in Islam?",
-    choices: ["Masjid al-Haram", "Masjid Quba", "Masjid al-Nabawi", "Masjid al-Aqsa"],
-    answer: "Masjid Quba"
+    question: "Which two companions were known as the Prophet’s ﷺ closest advisors and later became the first two Caliphs?",
+    choices: [
+      "Ali and Uthman",
+      "Abu Bakr and Umar",
+      "Talhah and Zubayr",
+      "Sa’d and Muadh"
+    ],
+    answer: "Abu Bakr and Umar"
   },
   {
-    question: "In which year did the Prophet ﷺ migrate to Medina?",
-    choices: ["1st Hijrah", "2nd Hijrah", "3rd Hijrah", "4th Hijrah"],
-    answer: "1st Hijrah"
+    question: "Which companion migrated twice — once to Abyssinia and later to Madinah?",
+    choices: [
+      "Ja'far ibn Abi Talib (ra)",
+      "Umar ibn al-Khattab (ra)",
+      "Bilal ibn Rabah (ra)",
+      "Abu Ubaydah ibn al-Jarrah (ra)"
+    ],
+    answer: "Ja'far ibn Abi Talib (ra)"
   },
   {
-    question: "Who was the Sahabiyyah who used to collect Prophet’s sweat and mix it in a small bottle?",
-    choices: ["Umm Sulaym", "Umm Kulthum", "Umm Khadija", "Umm Fatima"],
-    answer: "Umm Sulaym"
+    question: "Who led the Muslims in prayer during the Prophet’s ﷺ final illness?",
+    choices: [
+      "Umar ibn al-Khattab (ra)",
+      "Ali ibn Abi Talib (ra)",
+      "Abu Bakr al-Siddiq (ra)",
+      "Uthman ibn Affan (ra)"
+    ],
+    answer: "Abu Bakr al-Siddiq (ra)"
   },
   {
-    question: "How did the Prophet ﷺ walk?",
-    choices: ["Slowly", "Lazily", "Quickly", "Proudly"],
-    answer: "Quickly"
+    question: "Which companion was known for his immense modesty, even greater than the angels?",
+    choices: [
+      "Ali ibn Abi Talib (ra)",
+      "Uthman ibn Affan (ra)",
+      "Abu Darda (ra)",
+      "Salman al-Farisi (ra)"
+    ],
+    answer: "Uthman ibn Affan (ra)"
   },
   {
-    question: "What did the people call the Prophet ﷺ before his Prophethood?",
-    choices: ["The Obedient", "The Careful", "The Trustworthy", "The Diligent"],
-    answer: "The Trustworthy"
+    question: "Which companion suggested digging the trench during the Battle of Khandaq?",
+    choices: [
+      "Salman al-Farisi (ra)",
+      "Bilal ibn Rabah (ra)",
+      "Zayd ibn Harithah (ra)",
+      "Abu Hurairah (ra)"
+    ],
+    answer: "Salman al-Farisi (ra)"
   },
   {
-    question: "How many years was the Prophethood?",
-    choices: ["22 Years", "24 Years", "21 Years", "23 Years"],
-    answer: "23 Years"
+    question: "Who was known as 'Ameen al-Ummah' (The Trustworthy of the Nation)?",
+    choices: [
+      "Abu Ubaydah ibn al-Jarrah (ra)",
+      "Talhah ibn Ubaydullah (ra)",
+      "Sa’d ibn Abi Waqqas (ra)",
+      "Abdur Rahman ibn Awf (ra)"
+    ],
+    answer: "Abu Ubaydah ibn al-Jarrah (ra)"
   },
   {
-    question: "Who was one of the bravest Sahabi and also the second caliph of Islam?",
-    choices: ["Abu Bakr", "Uthman", "Umar", "Ali"],
-    answer: "Umar"
+    question: "Which companion was promised Jannah and was the son-in-law of the Prophet ﷺ?",
+    choices: [
+      "Ali ibn Abi Talib (ra)",
+      "Umar ibn al-Khattab (ra)",
+      "Sa’d ibn Abi Waqqas (ra)",
+      "Abu Hurairah (ra)"
+    ],
+    answer: "Ali ibn Abi Talib (ra)"
   },
   {
-    question: "Who is among the wives of the Prophet ﷺ?",
-    choices: ["Aisha", "Fatima", "Umm Kulthum", "Ruqaiiya"],
-    answer: "Aisha"
+    question: "Which companion narrated the most hadith?",
+    choices: [
+      "Ibn Abbas (ra)",
+      "Aisha (ra)",
+      "Abu Hurairah (ra)",
+      "Abdullah ibn Umar (ra)"
+],
+    answer: "Abu Hurairah (ra)"
   },
   {
-    question: "Which uncle of the Prophet ﷺ supported him till his death but did not accept Islam?",
-    choices: ["Abu Lahab", "Hamza", "Abu Talib", "Hamza"],
-    answer: "Abu Talib"
+    question: "The great grandfather of the Prophet ﷺ was?",
+    choices: ["Hashim ibn Abd Manaf", "Abdul Muttalib", "Abdullah ibn Abdul Muttalib", "Abu Talib"],
+    answer: "Hashim ibn Abd Manaf"
   },
   {
-    question: "What was the age of the Prophet ﷺ at the time of his wedding?",
-    choices: ["24 Years", "23 Years", "27 Years", "25 Years"],
-    answer: "25 Years"
+    question: "'Aam al-Fil (the Year of the Elephant) was named after an attack launched by which of the following:",
+    choices: ["The Roman Empire", "The Byzantine Empire", "The Crusaders", "An Abyssinian Ruler of Yemen"],
+    answer: "An Abyssinian Ruler of Yemen"
   },
   {
-    question: "If the Prophet ﷺ had a choice in two matters, he would choose the…",
-    choices: ["Hard One", "Easy One", "Elaborate One", "One which was most suited to the Arabs"],
-    answer: "Easy One"
+    question: "In which month did the attack during 'Aam al-Fil (Year of the Elephant) take place?",
+    choices: ["Ramadan", "Muharram", "Dhul Hijjah", "Sha'ban"],
+    answer: "Muharram"
   },
   {
-    question: "The people thought of punishing Ibrahim (peace be upon him) by…",
-    choices: ["Burning him", "Torturing him", "Throwing him off a cliff", "Stabbing him"],
-    answer: "Burning him"
+    question: "What was the name of the maid who helped to look after the Prophet Muhammad ﷺ as a child?",
+    choices: ["Barakah bint Tha'alaba (Umm Ayman)", "Maimoonah bint Harith", "Ruqayyah", "Zaynab"],
+    answer: "Barakah bint Tha'alaba (Umm Ayman)"
   },
   {
-    question: "What was the name of the tribe of the Prophet ﷺ?",
-    choices: ["Kinana", "Ghifar", "Qainuqa", "Quraish"],
-    answer: "Quraish"
+    question: "What was the name of the bedouin wet nurse that looked after the Prophet ﷺ after he was sent away from Makkah?",
+    choices: ["Halima al-Sa'diyah", "Juwayriyah bint Harith", "Umm Sulaim", "Amina bint Wahb"],
+    answer: "Halima al-Sa'diyah"
   },
   {
-    question: "What was the name of Madina earlier?",
-    choices: ["Tabook", "Yathrib", "Quba", "Taaif"],
-    answer: "Yathrib"
+    question: "What was the name of the servant that Khadijah (may Allah be pleased with her) sent with the Prophet ﷺ for business trade?",
+    choices: ["Rabiah", "Nafisah", "Sumayyah", "Maysarah"],
+    answer: "Maysarah"
   },
   {
-    question: "What was the name of the King who attacked the Ka’bah?",
-    choices: ["Negus", "Heraclius", "Abrahah", "Caesar"],
-    answer: "Abrahah"
+    question: "What was the name of the first freed slave to embrace Islam?",
+    choices: ["Zayd bin Harithah", "Bilal ibn Rabah al-Habashi", "Zayd ibn Thaabit", "Zayd ibn Arqam"],
+    answer: "Zayd bin Harithah"
   },
   {
-    question: "What was the year named after the attack on the Ka’bah?",
-    choices: ["Year of the Elephant", "Year of the Camel", "Year of the Lion", "Year of the Birds"],
-    answer: "Year of the Elephant"
-  },
-  {
-    question: "What does Muhammad mean?",
-    choices: ["The Respected One", "The Honorable One", "The Resilient One", "The Praised One"],
-    answer: "The Praised One"
-  },
-  {
-    question: "What was the name of the Monk who met the Prophet ﷺ in his childhood in Syria?",
-    choices: ["Fujairah", "Bahira", "Najashi", "Waraqa"],
-    answer: "Bahira"
-  },
-  {
-    question: "What was the name of the first child of the Prophet ﷺ?",
-    choices: ["Ibrahim", "Tahir", "Tayyib", "Qasim"],
-    answer: "Qasim"
-  },
-  {
-    question: "In which Surah are the first revealed verses?",
-    choices: ["Surah Bayyinah", "Surah Alaq", "Surah Rahman", "Surah Fatihah"],
-    answer: "Surah Alaq"
-  },
-  {
-    question: "Which angel is responsible for bringing down revelation?",
-    choices: ["Jibreel", "Mikaeel", "Israfeel", "Harut/Marut"],
-    answer: "Jibreel"
-  },
-  {
-    question: "Who was the first Muslim woman to accept Islam?",
-    choices: ["Aisha", "Khadija", "Fatima", "Sumaiya"],
-    answer: "Khadija"
-  },
-  {
-    question: "Who was the cousin of the Prophet ﷺ and also his son-in-law?",
-    choices: ["Uthman", "Abul ‘Aas", "Ali", "Umar"],
-    answer: "Ali"
-  },
-  {
-    question: "Who was the slave of Umaiyyah ibn Khalaf who was tortured for his Islam?",
-    choices: ["Yasir", "Bilal", "Ammar", "Khabbab"],
-    answer: "Bilal"
-  },
-  {
-    question: "Which country did the Muslims first migrate to?",
-    choices: ["Abyssinia", "Egypt", "Yemen", "Persia"],
-    answer: "Abyssinia"
-  },
+  question: "Who was a first cousin of Prophet Muhammad ﷺ?",
+  choices: [
+    "Abdullah ibn al-Abbas (ra)",
+    "Abdullah ibn Umar (ra)",
+    "Khalid ibn Waleed (ra)",
+    "Abu Hurairah (ra)"
+  ],
+  answer: "Abdullah ibn al-Abbas (ra)"
+},
+{
+  question: "Which Sahabi did Prophet Muhammad ﷺ help to become free from slavery by planting over 300 date palm trees?",
+  choices: [
+    "Bilal ibn Rabah (ra)",
+    "Thawban ibn Bujdud (ra)",
+    "Zayd ibn Harithah (ra)",
+    "Salman al-Farisi (ra)"
+  ],
+  answer: "Salman al-Farisi (ra)"
+},
+{
+  question: "Who was Umar bin Abdul Aziz (r)?",
+  choices: [
+    "A companion of the Prophet ﷺ",
+    "A servant of the Prophet ﷺ",
+    "Grandson of Umar ibn al-Khattab",
+    "Great grandson of Umar ibn al-Khattab"
+  ],
+  answer: "Great grandson of Umar ibn al-Khattab"
+},
+{
+  question: "Which companion was known as 'The Sword of Allah' after the Battle of Mu’tah?",
+  choices: [
+    "Abu Ubaydah ibn al-Jarrah (RA)",
+    "Khalid ibn al-Walid (RA)",
+    "Talhah ibn Ubaydillah (RA)",
+    "Zubayr ibn al-Awwam (RA)"
+  ],
+  answer: "Khalid ibn al-Walid (RA)"
+},
+{
+  question: "Which companion was known as 'The Sword of Allah' after the Battle of Mu’tah?",
+  choices: [
+    "Abu Ubaydah ibn al-Jarrah (RA)",
+    "Khalid ibn al-Walid (RA)",
+    "Talhah ibn Ubaydillah (RA)",
+    "Zubayr ibn al-Awwam (RA)"
+  ],
+  answer: "Khalid ibn al-Walid (RA)"
+},
+{
+  question: "Which companion was promised Paradise and was known for his generosity during the Expedition of Tabuk?",
+  choices: [
+    "Uthman ibn Affan (RA)",
+    "Abdur Rahman ibn Awf (RA)",
+    "Sa’d ibn Abi Waqqas (RA)",
+    "Abu Darda (RA)"
+  ],
+  answer: "Uthman ibn Affan (RA)"
+},
+{
+  question: "What did Abu Bakr (RA) and Uthman (RA) have in common?",
+  choices: [
+    "Both were martyred in battle",
+    "Both were among the earliest converts and later became Caliphs",
+    "Both migrated only once",
+    "Both were Ansar"
+  ],
+  answer: "Both were among the earliest converts and later became Caliphs"
+},
+{
+  question: "How many Muslims participated in the Battle of Badr?",
+  choices: ["100", "313", "700", "1000"],
+  answer: "313"
+},
+{
+  question: "Which battle is also known as the Battle of the Trench?",
+  choices: ["Badr", "Uhud", "Khandaq", "Hunayn"],
+  answer: "Khandaq"
+},
+{
+  question: "Which companion was the son-in-law of the Prophet ﷺ twice?",
+  choices: ["Ali ibn Abi Talib (RA)", "Uthman ibn Affan (RA)", "Abu Bakr (RA)", "Zubayr ibn al-Awwam (RA)"],
+  answer: "Uthman ibn Affan (RA)"
+},
+{
+  question: "Which companion was known as the 'Interpreter of the Qur'an'?",
+  choices: ["Abu Hurairah (RA)", "Ibn Abbas (RA)", "Zayd ibn Thabit (RA)", "Muadh ibn Jabal (RA)"],
+  answer: "Ibn Abbas (RA)"
+},
+{
+  question: "Who was appointed as the commander at the Battle of Mu’tah before being martyred?",
+  choices: ["Khalid ibn al-Walid (RA)", "Ja’far ibn Abi Talib (RA)", "Zayd ibn Harithah (RA)", "Both Ja’far and Zayd (RA)"],
+  answer: "Both Ja’far and Zayd (RA)"
+},
+{
+  question: "Which companion was known for his beautiful recitation of the Qur’an and was told by the Prophet ﷺ to recite for him?",
+  choices: ["Abdullah ibn Mas’ud (RA)", "Abu Darda (RA)", "Ubayy ibn Ka’b (RA)", "Salman al-Farisi (RA)"],
+  answer: "Abdullah ibn Mas’ud (RA)"
+},
+{
+  question: "Which companion was martyred alongside his mother Sumayyah (RA)?",
+  choices: ["Bilal (RA)", "Ammar ibn Yasir (RA)", "Khabbab (RA)", "Suhaib (RA)"],
+  answer: "Ammar ibn Yasir (RA)"
+},
+{
+  question: "Who was the first martyr in Islam?",
+  choices: ["Hamzah (RA)", "Mus'ab ibn Umayr (RA)", "Sumayyah bint Khayyat (RA)", "Yasir (RA)"],
+  answer: "Sumayyah bint Khayyat (RA)"
+},
+{
+  question: "Which companion hosted the Prophet ﷺ in Madinah after Hijrah?",
+  choices: ["Sa’d ibn Muadh (RA)", "Abu Ayyub al-Ansari (RA)", "Ubayy ibn Ka’b (RA)", "Anas ibn Malik (RA)"],
+  answer: "Abu Ayyub al-Ansari (RA)"
+},
+{
+  question: "Which companion was chosen to call the Adhan in Makkah after its conquest?",
+  choices: ["Abu Hurairah (RA)", "Bilal ibn Rabah (RA)", "Umar (RA)", "Ali (RA)"],
+  answer: "Bilal ibn Rabah (RA)"
+},
+{
+  question: "Which companion was known as the 'Ameen (Trustworthy) of this Ummah'?",
+  choices: ["Abu Ubaydah ibn al-Jarrah (RA)", "Abu Bakr (RA)", "Umar (RA)", "Uthman (RA)"],
+  answer: "Abu Ubaydah ibn al-Jarrah (RA)"
+},
+// {
+//   question: "Which companion was sent as a teacher to Madinah before the Hijrah?",
+//   choices: ["Muadh ibn Jabal (RA)", "Mus'ab ibn Umayr (RA)", "Abu Ubaydah (RA)", "Sa’d ibn Abi Waqqas (RA)"],
+//   answer: "Mus'ab ibn Umayr (RA)"
+// },
+// {
+//   question: "Which battle did the Prophet ﷺ personally participate in the most intensely?",
+//   choices: ["Badr", "Uhud", "Hunayn", "Tabuk"],
+//   answer: "Uhud"
+// },
+// {
+//   question: "Which companion embraced Islam after initially opposing it and later became a great military leader?",
+//   choices: ["Khalid ibn al-Walid (RA)", "Abu Jahl", "Abu Lahab", "Umayyah ibn Khalaf"],
+//   answer: "Khalid ibn al-Walid (RA)"
+// },
+// {
+//   question: "Which companion was known for his deep knowledge of halal and haram?",
+//   choices: ["Muadh ibn Jabal (RA)", "Abu Hurairah (RA)", "Bilal (RA)", "Talhah (RA)"],
+//   answer: "Muadh ibn Jabal (RA)"
+// },
+// {
+//   question: "Which companion was the standard bearer at the Battle of Uhud and was martyred?",
+//   choices: ["Hamzah (RA)", "Mus'ab ibn Umayr (RA)", "Ali (RA)", "Sa’d (RA)"],
+//   answer: "Mus'ab ibn Umayr (RA)"
+// },
+// {
+//   question: "Which companion was known for his courage and slept in the Prophet’s ﷺ bed during the Hijrah?",
+//   choices: ["Ali ibn Abi Talib (RA)", "Umar (RA)", "Zubayr (RA)", "Abu Bakr (RA)"],
+//   answer: "Ali ibn Abi Talib (RA)"
+// },
+// {
+//   question: "Which companion was famous for making the dua that Allah strengthen Islam with one of the two Umars?",
+//   choices: ["Abu Bakr (RA)", "The Prophet ﷺ", "Hamzah (RA)", "Ali (RA)"],
+//   answer: "The Prophet ﷺ"
+// }
 ];
 
 const correctSound = new Audio('sounds/correct.wav');
